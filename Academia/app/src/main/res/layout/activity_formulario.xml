@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<LinearLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".FormularioActivity">
+
+    <EditText
+        android:id="@+id/formulario_nome"
+        android:hint="Nome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/formulario_endereco"
+        android:hint="Endereço"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/formulario_telefone"
+        android:hint="Telefone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+    <EditText
+        android:id="@+id/formulario_site"
+        android:hint="Site"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </EditText>
+
+    <RatingBar
+        android:id="@+id/formulario_nota"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:numStars="5"
+        android:max="10"
+        android:layout_height="wrap_content">
+    </RatingBar>
+    <Button
+        android:id="@+id/formulario_buttonSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar">
+    </Button>
+</LinearLayout>
+
+    </ScrollView>
+
